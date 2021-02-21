@@ -4,6 +4,7 @@
 
 Сеть office1
 
+```
 e@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$ netcalc 192.168.2.0 26 
   Network address: 192.168.2.0/26
 
@@ -49,10 +50,11 @@ Broadcast address: 192.168.2.255
         Last host: 192.168.2.254
   Number of hosts: 62
 me@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$ 
-
+```
 
 Сеть office2
 
+```
 me@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$ netcalc 192.168.1.0 25
   Network address: 192.168.1.0/25
 
@@ -87,10 +89,11 @@ Broadcast address: 192.168.1.255
         Last host: 192.168.1.254
   Number of hosts: 62
 me@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$ 
-
+```
 
 Сеть central
 
+```
 me@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$ netcalc 192.168.0.0 28
   Network address: 192.168.0.0/28
 
@@ -125,10 +128,11 @@ Broadcast address: 192.168.0.127
         Last host: 192.168.0.126
   Number of hosts: 62
 me@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$ 
-
+```
 
 Тогда свободные подсети есть только в сети Central:
 
+```
 me@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$ netcalc 192.168.0.16 28
   Network address: 192.168.0.16/28
 
@@ -163,7 +167,7 @@ Broadcast address: 192.168.0.255
         Last host: 192.168.0.254
   Number of hosts: 126
 me@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$ 
-
+```
 
 Практическая часть.
 
