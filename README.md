@@ -173,3 +173,8 @@ me@me-HP-260-G3-DM:~/otus-linux/DZ_networks_20210221$
 
 Прилагаю Vagrantfile.
 
+Схема:
+
+![Схема сети](images/DZ_OTUS_diagram.png)
+
+
